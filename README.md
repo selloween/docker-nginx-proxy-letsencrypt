@@ -5,8 +5,9 @@ Copy sample.env to .env
 ```bash
 $ cp sample.env .env
 ```
-Adjust NGINX_PATH environment variable in .env file.
-
+#### Configure .env
+* Adjust NGINX_PATH
+* Change DEFAULT_HOST from "example.com" to you domain 
 ```bash
 $ docker-compose up
 ```
