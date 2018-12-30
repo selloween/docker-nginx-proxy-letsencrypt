@@ -25,6 +25,7 @@ services:
     volumes:
       - ${NGINX_PATH}/vhost.d:/etc/nginx/vhost.d
       - ${NGINX_PATH}/certs:/etc/nginx/certs:rw
+      - ${NGINX_PATH}/html:/usr/share/nginx/html
       - /var/run/docker.sock:/var/run/docker.sock:ro
     depends_on:
       - nginx-proxy
