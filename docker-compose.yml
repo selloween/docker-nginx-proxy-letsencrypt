@@ -30,4 +30,4 @@ services:
       - nginx-proxy
 
 networks:
-- webproxy
+  webproxy:
